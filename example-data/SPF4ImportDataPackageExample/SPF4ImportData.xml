@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Все атрибуты по умолчанию - текстовые -->
+<!-- Корневой узел, значения всегда эти -->
+<SPF4ImportData Configuration="Unknown" FileVersion="0.4.1-simplified">
+  <!-- Узел "ревизия комплекта", свойства: имя, описание, код объекта инфраструктуры, код договора, код проектной дисциплины, номер ревизии, дата выпуска ревизии (тип: дата), владелец -->
+  <ProjDocBinderRevision Name="11111111-П-001.000.000-СМ-02" Description="для смет" RNUObj="001.000.000" RNContract="11111111" RNProjectDiscipline="СМ" RevisionNumber="C01" SPFRevIssueDate="2015-02-19" Owner="[RNKOMSNPZ]">
+    <!-- Узел "ревизия документа", свойства: имя, описание, тип документа, номер ревизии, дата выпуска ревизии (тип: дата), владелец, количество страниц (тип: целое) -->
+    <ProjDocRevision Name="11111111-П-001.000.000-СМ-02-СР-001" Description="смета раз" RNDocType="СР" RevisionNumber="C01" SPFRevIssueDate="2015-02-19" Owner="[RNKOMSNPZ]" RNAllSheetsSize="12" >
+      <!-- Узел "файл", свойства: относительный путь к файлу (от директории, в которой расположен xml-файл) -->
+      <File FileName="11111111-P-001.000.000-SM-02\SR-001\C01\11111111-P-001.000.000-SM-02-SR-001_rC01_f01.txt" />
+    </ProjDocRevision>
+    <ProjDocRevision Name="11111111-П-001.000.000-СМ-02-СР-002" Description="смета два" RNDocType="СР" RevisionNumber="C01" SPFRevIssueDate="2015-02-19" Owner="[RNKOMSNPZ]" RNAllSheetsSize="45" >
+      <File FileName="11111111-P-001.000.000-SM-02\SR-002\C01\11111111-P-001.000.000-SM-02-SR-002_rC01_f01.txt" />
+    </ProjDocRevision>
+  </ProjDocBinderRevision>
+  <ProjDocBinderRevision Name="11111111-П-001.000.000-СМ-03" Description="для смет" RNUObj="001.000.000" RNContract="11111111" RNProjectDiscipline="СМ" RevisionNumber="C01" SPFRevIssueDate="2015-02-19" Owner="[RNKOMSNPZ]">
+    <ProjDocRevision Name="11111111-П-001.000.000-СМ-03-СР-003" Description="смета три" RNDocType="СР" RevisionNumber="C01" SPFRevIssueDate="2015-02-19" Owner="[RNKOMSNPZ]" RNAllSheetsSize="23" >
+      <File FileName="11111111-P-001.000.000-SM-03\SR-003\C01\11111111-P-001.000.000-SM-02-SR-003_rC01_f01.txt" />
+    </ProjDocRevision>
+  </ProjDocBinderRevision>
+</SPF4ImportData>
